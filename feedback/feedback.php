@@ -24,7 +24,7 @@ $feedback = mysqli_fetch_all($result, MYSQLI_ASSOC);
            <?php echo $item['body'] ?>
          </div>
          <div class="text-secondary m-2 text-end">
-          By <?php echo $item['name'] ?>
+          By <?php echo $item['name'] ?> on <?php echo $item['date'] ?>
          </div>
       </div>
     <?php endforeach; ?>
