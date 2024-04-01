@@ -25,9 +25,9 @@ while($x <= 15){
 
 
 /* ------------ Do While Loop ------------ */
-do{
-    // code to be executed
-}while(/*condition*/)
+// do{
+//     // code to be executed
+// }while(/*condition*/)
 
 
 $x =1;
